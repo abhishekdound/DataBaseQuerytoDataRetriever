@@ -1,0 +1,27 @@
+# Core LLM + LangChain
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-experimental>=0.0.60
+
+# Embeddings + Vector DB
+sentence-transformers>=2.7.0
+chromadb>=0.5.0
+faiss-cpu>=1.8.0
+
+# Tokenizer
+tiktoken>=0.7.0
+
+# App / UI
+streamlit>=1.32.0
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Database (MySQL)
+mysql-connector-python>=8.3.0
+pymysql>=1.1.0
+
+# Required by chroma / transformers / grpc
+protobuf>=4.25.3
+
